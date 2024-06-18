@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTech Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <h1>Welcome to My Portfolio</h1>
+        <p>BTech Student | Aspiring Developer | Tech Enthusiast</p>
+        <button onclick="scrollToSection('projects')">View My Projects</button>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a BTech student passionate about technology and software development. Here, you can find some of the projects I've worked on during my studies.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Tic-Tac-Toe Game</h3>
+            <p>A simple Tic-Tac-Toe game built with HTML, CSS, and JavaScript.</p>
+            <button onclick="alert('More details coming soon!')">More Details</button>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you’d like to get in touch, feel free to reach out on LinkedIn or send an email.</p>
+        <button onclick="window.location.href='mailto:your.email@example.com'">Email Me</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 BTech Student. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
